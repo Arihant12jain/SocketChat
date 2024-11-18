@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body className="bg-black">
+    <h1><center>Chatting app</center></h1>
+
+
+<section className="md:flex items-center bg-black">
+    <div className="logo">
+        <img src="WhatsApp.png" height="45px" width="60px">
+        <h2>Whatsapp</h2>
+    </div>
+        <div class="message">
+            <div class="size">Chatting App</div>
+           
+            <div class="incoming">
+                Rakesh
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolorum. Cupiditate, mollitia. Doloremque quod suscipit, eius iusto hic a, impedit temporibus, blanditiis minus praesentium beatae rerum odio natus sequi architecto.</p>
+            </div>
+            <div class="outgoing">
+                Rohan
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolorum. Cupiditate, mollitia. Doloremque quod suscipit, eius iusto hic a, impedit temporibus, blanditiis minus praesentium beatae rerum odio natus sequi architecto.</p>
+            </div>
+</div>
+</div>
+<div> 
+        <textarea id="text" cols="30" rows="10"></textarea>
+    <button onClick="submit()">Click Me</button>
+    </div>
+
+   
+</section>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js">
+       
+    </script>
+</body>
+</html>
